@@ -1,3 +1,3 @@
 ProgrammingIntroductionCSharpBasics
 ===================================
-There are then tasks, which was in the first lesson "ProgrammingIntroduction" in CSharpCours
+There are ten tasks, which were in the first lesson "Programming Introduction" in CSharpCours. You can find the code of my implementation.
