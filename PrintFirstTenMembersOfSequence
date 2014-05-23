@@ -1,0 +1,20 @@
+using System;
+//Write a program that prints the first 10 members of the sequence: 2, -3, 4, -5, 6, -7, ...
+class PrintFirstTenMembersOfSequence
+{
+    static void Main()
+    {
+        Console.Write(2);
+        for (int i = 2; i <= 10; i++)
+        {
+            int member = i + 1;
+            if(member % 2 != 0)
+            {
+                member = -member;
+            }
+            Console.Write(", " + member);
+        }
+        
+        Console.WriteLine(".");
+    }
+}
